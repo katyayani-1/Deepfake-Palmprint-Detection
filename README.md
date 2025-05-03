@@ -20,8 +20,8 @@ A Flask web app to detect deepfake (AI-generated) palmprint images using a train
    ```in the terminal
    pip install -r requirements.txt
    ```
-3. **Ensure the model file exists**:
-   - Place `updated_resnet_model_best.h5` in the project root directory.
+3.  Note: The trained model file `updated_resnet_model_best.h5` (178 MB) is not included in this repository due to GitHub file size limits.  
+Please contact the author to obtain the file or use your own trained model.
 4. **Run the Flask app**:
    ```in the terminal
    python app.py
